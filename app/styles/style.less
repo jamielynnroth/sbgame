@@ -1,0 +1,107 @@
+
+@orange: #F5841F;
+@grey: #626262;
+@blue: #00AEEF;
+
+body {
+	background-image: url('/images/grunge_wall.png');
+}
+hr {
+	background-color: @grey;
+	border-color: @grey;
+	color:@grey;
+}
+
+h1, h2, h3, h4, h5, p {
+	font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+	text-transform: uppercase;
+}
+
+.jumbotron {
+	background-image: url('/images/bg1280.jpg');
+	p {
+		color: white;
+		margin-top: 25px;
+	}
+}
+
+.filter {
+	margin-bottom: 30px;
+	margin-right: 15px;
+}
+
+#teamfilter .btn {
+	background-color: @blue;
+	color:white;
+}
+
+
+.team {
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	p {
+		// text-align: left;
+	}
+	.glyphicon-road {
+		// margin: 0 auto;
+		font-size: 50px;
+	}
+	.input-group {
+		text-align: center;
+		margin: 0 auto;
+	}
+	input.form-control {
+		min-width: 50px;
+	}
+	.input-group-addon {
+		background-color: @grey;
+		border-color: @grey;
+		color: white;
+
+	}
+	.btn {
+		background-color: @orange;
+		border-color: @orange;
+		color:white;
+	}
+	.corner-arrow {
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 0 100px 100px 0;
+		border-color: transparent @blue transparent transparent;
+		position:absolute;
+		top: 0;
+		right: 00;
+		color: white;
+
+		h4 {
+			color: white;
+			margin-top: 35px;
+			margin-right: -115px;
+		
+			font-size: 14px !important;
+			text-transform: uppercase;
+			//rotate
+			/* Safari */
+			-webkit-transform: rotate(45deg);
+			/* Firefox */
+			-moz-transform: rotate(45deg);
+			/* IE */
+			-ms-transform: rotate(45deg);
+			/* Opera */
+			-o-transform: rotate(45deg);
+			/* Internet Explorer */
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+		}
+
+
+	}
+
+}
+
+
